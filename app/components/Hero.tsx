@@ -49,7 +49,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="text-[30px] md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600"
         >
-          Lendi Page
+          Community Nexus 
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 50 }}
