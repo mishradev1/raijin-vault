@@ -98,7 +98,7 @@ export default function FeatureSection({ title, description, imageSrc, imageAlt,
               className={`absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg ${textColor}`}
             >
               <span className="text-2xl font-bold">100+</span>
-              <span className="block text-sm">Rands Happy</span>
+              <span className="block text-sm">Happy Users</span>
             </motion.div>
           </div>
         </motion.div>

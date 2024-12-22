@@ -21,7 +21,7 @@ export default function Home() {
       <FeatureSection
         title="AI Resume Builder"
         description="Create professional resumes tailored to your skills and experience with the power of AI. Stand out from the crowd and land your dream job."
-        imageSrc="/placeholder.svg?height=500&width=500&text=AI+Resume+Builder"
+        imageSrc="/resume-sem-5.jpeg"
         imageAlt="AI Resume Builder Illustration"
         reverse={true}
         benefits={[

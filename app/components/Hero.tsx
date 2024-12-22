@@ -74,7 +74,8 @@ export default function Hero() {
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="flex flex-col items-center bg-purple-100 p-6 rounded-lg shadow-md"
+            className="flex flex-col items-center bg-purple-100 p-6 rounded-lg shadow-md hover:shadow-lg"
+            onClick={() => window.open('https://ai-resume-builder-orcin.vercel.app/')}
           >
             <FaFileAlt className="text-5xl text-purple-600 mb-2" />
             <span className="text-lg font-semibold">AI Resume Builder</span>
