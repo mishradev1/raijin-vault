@@ -1,6 +1,5 @@
 import Hero from './components/Hero'
 import FeatureSection from './components/FeatureSection'
-import CTA from './components/CTA'
 
 export default function Home() {
   return (
