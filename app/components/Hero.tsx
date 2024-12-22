@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { FaBook, FaFileAlt, FaBolt, FaStar, FaCloud } from 'react-icons/fa'
 
-const FloatingShape = ({ Icon, className }) => (
+const FloatingShape = ({ Icon, className }: { Icon: React.ElementType, className: string }) => (
   <motion.div
     className={`absolute ${className}`}
     initial={{ opacity: 0, scale: 0 }}

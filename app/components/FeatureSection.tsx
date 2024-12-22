@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import { FaBolt, FaStar, FaCloud, FaCheckCircle } from 'react-icons/fa'
 
-const FloatingShape = ({ Icon, className }) => (
+const FloatingShape = ({ Icon, className }: { Icon: React.ElementType, className: string }) => (
   <motion.div
     className={`absolute ${className}`}
     initial={{ opacity: 0, scale: 0 }}
@@ -15,7 +15,7 @@ const FloatingShape = ({ Icon, className }) => (
   </motion.div>
 )
 
-const BackgroundPattern = ({ color }) => (
+const BackgroundPattern = ({ color }: { color: string }) => (
   <div className="absolute inset-0 overflow-hidden">
     <svg className="absolute w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <defs>
